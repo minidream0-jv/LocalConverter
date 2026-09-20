@@ -1,2 +1,1 @@
-# LocalConverter
-Local Converter is an open-source Windows 11 desktop application for converting images, audio, and video files directly from File Explorer. Right-click a file, choose “Convert,” select the target format, and the converted copy is saved next to the original without changing it. The project works fully offline.
+Local Converter is an open-source Windows 11 desktop application for converting images, audio, and video files directly from File Explorer. Right-click a file, choose “Convert,” select the target format, and the converted copy is saved next to the original without changing it. The project works fully offline, supports multiple file selection, and provides additional conversion settings when needed.

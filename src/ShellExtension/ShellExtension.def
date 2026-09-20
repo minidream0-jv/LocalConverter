@@ -1,0 +1,5 @@
+LIBRARY "LocalConverter.ShellExtension"
+EXPORTS
+    DllCanUnloadNow PRIVATE
+    DllGetClassObject PRIVATE
+

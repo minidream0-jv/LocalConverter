@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Conversion.Core/Conversion.Core.csproj" />
+    <Project Path="src/Conversion.FFmpeg/Conversion.FFmpeg.csproj" />
+    <Project Path="src/Conversion.Images/Conversion.Images.csproj" />
+    <Project Path="src/Converter.App/Converter.App.csproj" />
+    <Project Path="src/Converter.Setup/Converter.Setup.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Conversion.Tests/Conversion.Tests.csproj" />
+  </Folder>
+</Solution>

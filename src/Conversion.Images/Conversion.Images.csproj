@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Conversion.Core\Conversion.Core.csproj" />
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.17.1" />
+  </ItemGroup>
+</Project>
+

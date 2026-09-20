@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>LocalConverter.Setup</AssemblyName>
+    <RootNamespace>LocalConverter.Setup</RootNamespace>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(InstallerPackagePath)' != '' and Exists('$(InstallerPackagePath)')">
+    <EmbeddedResource Include="$(InstallerPackagePath)" LogicalName="LocalConverter.msix" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(InstallerCertificatePath)' != '' and Exists('$(InstallerCertificatePath)')">
+    <EmbeddedResource Include="$(InstallerCertificatePath)" LogicalName="LocalConverter.cer" />
+  </ItemGroup>
+</Project>
